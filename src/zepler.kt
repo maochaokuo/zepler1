@@ -1,7 +1,7 @@
 package zepler.com
 
 import Connect.connect
-import FirstSwingExample.main2
+import FirstSwingExample
 import java.sql.DriverManager.println
 
 //class zepler {

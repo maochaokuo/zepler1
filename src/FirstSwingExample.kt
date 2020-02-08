@@ -2,7 +2,7 @@ import javax.swing.JButton
 import javax.swing.JFrame
 
 object FirstSwingExample {
-    fun main2() {
+    fun main() {
         val f = JFrame() //creating instance of JFrame
         val b = JButton("click") //creating instance of JButton
         b.setBounds(130, 100, 100, 40) //x axis, y axis, width, height
