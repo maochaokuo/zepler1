@@ -1,9 +1,5 @@
 package zepler.com
 
-import Connect.connect
-import FirstSwingExample
-import java.sql.DriverManager.println
-
 //class zepler {
     fun main(args: Array<String>) {
         println("Hello World!")
@@ -11,7 +7,9 @@ import java.sql.DriverManager.println
         println(i)
         println("hello $i")
         //main2()
-        connect()
+        //connect()
+
+        ZepdUimain()
     }
 //fun main() {
 //    println("Hello World! no para")

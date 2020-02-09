@@ -1,5 +1,6 @@
-package javas
+package zepler.com.misc.swing
 
+import javas.SpringUtilities
 import javax.swing.*
 
 object testSpringLayout {

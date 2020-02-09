@@ -1,3 +1,5 @@
+package zepler.com.misc.swing
+
 import javax.swing.JButton
 import javax.swing.JFrame
 

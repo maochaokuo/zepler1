@@ -1,6 +1,7 @@
+package zepler.com.misc.sqlite
+
 import java.sql.Connection
 import java.sql.DriverManager
-import java.sql.PreparedStatement
 import java.sql.SQLException
 
 /**
@@ -9,7 +10,7 @@ import java.sql.SQLException
  */
 object Connect {
     /**
-     * Connect to a sample database
+     * zepler.com.misc.sqlite.Connect to a sample database
      */
     fun connect() {
         var conn: Connection? = null

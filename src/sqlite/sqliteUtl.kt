@@ -14,7 +14,7 @@ class sqliteUtl(dbFullPath: String) {
     }
 
     /**
-     * Connect to the test.db database
+     * zepler.com.misc.sqlite.Connect to the test.db database
      * @return the Connection object
      */
     private fun connect(): Connection? { // SQLite connection string
