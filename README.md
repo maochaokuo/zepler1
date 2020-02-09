@@ -9,6 +9,7 @@
 ### 2020/2/9
 1. sqlite utility (basic insert/update/delete/select)
 2. my initial desired control pair/set layout, flowlayout for panels
+3. my initial menu
 
 ### 2020/2/6
 1. initial commit

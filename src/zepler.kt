@@ -1,5 +1,7 @@
 package zepler.com
 
+import javax.swing.SwingUtilities
+
 //class zepler {
     fun main(args: Array<String>) {
         println("Hello World!")
@@ -8,8 +10,8 @@ package zepler.com
         println("hello $i")
         //main2()
         //connect()
-
-        ZepdUimain()
+        SwingUtilities.invokeLater{
+            ZepdUimain()}
     }
 //fun main() {
 //    println("Hello World! no para")
