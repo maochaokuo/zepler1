@@ -6,6 +6,9 @@
 
 ## change history
 
+### 2020/2/11
+1. add JTable samples
+
 ### 2020/2/9
 1. sqlite utility (basic insert/update/delete/select)
 2. my initial desired control pair/set layout, flowlayout for panels
