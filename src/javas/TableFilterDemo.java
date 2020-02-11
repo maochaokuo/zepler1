@@ -60,7 +60,7 @@ public class TableFilterDemo extends JPanel {
         sorter = new TableRowSorter<MyTableModel>(model);
         table = new JTable(model);
         table.setRowSorter(sorter);
-        table.setPreferredScrollableViewportSize(new Dimension(500, 70));
+        table.setPreferredScrollableViewportSize(new Dimension(600, 170));
         table.setFillsViewportHeight(true);
 
         //For the purposes of this example, better to have a single

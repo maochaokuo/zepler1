@@ -70,7 +70,7 @@ public class SimpleTableDemo extends JPanel {
         };
 
         final JTable table = new JTable(data, columnNames);
-        table.setPreferredScrollableViewportSize(new Dimension(500, 70));
+        table.setPreferredScrollableViewportSize(new Dimension(600, 170));
         table.setFillsViewportHeight(true);
 
         if (DEBUG) {

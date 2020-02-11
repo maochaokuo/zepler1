@@ -62,7 +62,7 @@ public class TableDialogEditDemo extends JPanel {
         super(new GridLayout(1,0));
 
         JTable table = new JTable(new MyTableModel());
-        table.setPreferredScrollableViewportSize(new Dimension(500, 70));
+        table.setPreferredScrollableViewportSize(new Dimension(550, 170));
         table.setFillsViewportHeight(true);
 
         //Create the scroll pane and add the table to it.

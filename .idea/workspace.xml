@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="867e4a28-b043-4c0b-8c2f-540e4ca6810e" name="Default Changelist" comment="" />
+    <list default="true" id="867e4a28-b043-4c0b-8c2f-540e4ca6810e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javas/MenuLookDemo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/javas/MenuLookDemo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javas/SimpleTableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javas/SimpleTableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javas/SpringForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javas/SpringForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javas/TableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javas/TableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javas/TableDialogEditDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javas/TableDialogEditDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javas/TableFTFEditDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javas/TableFTFEditDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javas/TableFilterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javas/TableFilterDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javas/TablePrintDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javas/TablePrintDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javas/TableRenderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javas/TableRenderDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javas/TableSortDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javas/TableSortDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javas/TableSorterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javas/TableSorterDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javas/TableToolTipsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javas/TableToolTipsDemo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,36 +32,57 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Kotlin.zepler.com.ZeplerKt">
-    <configuration name="SimpleTableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="components.SimpleTableDemo" />
+  <component name="RunManager" selected="Kotlin.zepler.com.misc.swing.testSpringLayout">
+    <configuration name="TableSorterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javas.TableSorterDemo" />
       <module name="zepler1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="TableToolTipsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javas.TableToolTipsDemo" />
+      <module name="zepler1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="swing.LayoutEx1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="zepler1" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Test1Kt" />
+      <option name="MAIN_CLASS_NAME" value="swing.LayoutEx1Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="zepler.com.ZeplerKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="zepler.com.misc.sqlite.Connect" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="zepler1" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="zepler.com.ZeplerKt" />
+      <option name="MAIN_CLASS_NAME" value="zepler.com.misc.sqlite.Connect" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="zepler.com.misc.swing.testSpringLayout" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="zepler1" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="zepler.com.misc.swing.testSpringLayout" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -55,36 +90,46 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.zepler.com.ZeplerKt" />
-        <item itemvalue="Application.SimpleTableDemo" />
-        <item itemvalue="Kotlin.Test1Kt" />
+        <item itemvalue="Kotlin.zepler.com.misc.swing.testSpringLayout" />
+        <item itemvalue="Kotlin.swing.LayoutEx1Kt" />
+        <item itemvalue="Kotlin.zepler.com.misc.sqlite.Connect" />
+        <item itemvalue="Application.TableToolTipsDemo" />
+        <item itemvalue="Application.TableSorterDemo" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix changing computer issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix changing computer issues" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="26" key="CommitChangelistDialog2" timestamp="1581461175497">
+    <state x="446" y="26" key="CommitChangelistDialog2" timestamp="1581461215554">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="446" y="26" key="CommitChangelistDialog2/62.0.1474.864@62.0.1474.864" timestamp="1581461175497" />
-    <state width="1431" height="224" key="GridCell.Tab.0.bottom" timestamp="1581460880442">
+    <state x="446" y="26" key="CommitChangelistDialog2/62.0.1474.864@62.0.1474.864" timestamp="1581461215554" />
+    <state width="1431" height="224" key="GridCell.Tab.0.bottom" timestamp="1581461981161">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1581460880442" />
-    <state width="1431" height="224" key="GridCell.Tab.0.center" timestamp="1581460880441">
+    <state width="1431" height="224" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1581461981161" />
+    <state width="1431" height="224" key="GridCell.Tab.0.center" timestamp="1581461981161">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1581460880441" />
-    <state width="1431" height="224" key="GridCell.Tab.0.left" timestamp="1581460880441">
+    <state width="1431" height="224" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1581461981161" />
+    <state width="1431" height="224" key="GridCell.Tab.0.left" timestamp="1581461981161">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1581460880441" />
-    <state width="1431" height="224" key="GridCell.Tab.0.right" timestamp="1581460880441">
+    <state width="1431" height="224" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1581461981161" />
+    <state width="1431" height="224" key="GridCell.Tab.0.right" timestamp="1581461981161">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1581460880441" />
+    <state width="1431" height="224" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1581461981161" />
+    <state x="392" y="166" key="Vcs.Push.Dialog.v2" timestamp="1581461224109">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="392" y="166" key="Vcs.Push.Dialog.v2/62.0.1474.864@62.0.1474.864" timestamp="1581461224109" />
     <state x="484" y="31" width="629" height="801" key="find.popup" timestamp="1581460991917">
       <screen x="62" y="0" width="1474" height="864" />
     </state>

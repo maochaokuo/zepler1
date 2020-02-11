@@ -158,7 +158,7 @@ class MenuLookDemo {
             frame.jMenuBar = demo.createMenuBar()
             frame.contentPane = demo.createContentPane()
             //Display the window.
-            frame.setSize(450, 260)
+            frame.setSize(650, 460)
             frame.isVisible = true
         }
 

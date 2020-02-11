@@ -75,6 +75,7 @@ public class SpringForm {
 
         //Display the window.
         frame.pack();
+        frame.setSize(500, 250);
         frame.setVisible(true);
     }
 

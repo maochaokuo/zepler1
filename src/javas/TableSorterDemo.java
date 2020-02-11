@@ -59,7 +59,7 @@ public class TableSorterDemo extends JPanel {
         //JTable table = new JTable(new MyTableModel());         //OLD
         JTable table = new JTable(sorter);             //NEW
         sorter.setTableHeader(table.getTableHeader()); //ADDED THIS
-        table.setPreferredScrollableViewportSize(new Dimension(500, 70));
+        table.setPreferredScrollableViewportSize(new Dimension(600, 170));
 
         //Set up tool tips for column headers.
         table.getTableHeader().setToolTipText(

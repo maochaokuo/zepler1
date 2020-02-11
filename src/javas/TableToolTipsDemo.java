@@ -111,7 +111,7 @@ public class TableToolTipsDemo extends JPanel {
             }
         };
      
-        table.setPreferredScrollableViewportSize(new Dimension(500, 70));
+        table.setPreferredScrollableViewportSize(new Dimension(600, 170));
         table.setFillsViewportHeight(true);
                 
         //Create the scroll pane and add the table to it.

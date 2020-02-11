@@ -50,7 +50,7 @@ public class TableSortDemo extends JPanel {
         super(new GridLayout(1,0));
 
         JTable table = new JTable(new MyTableModel());
-        table.setPreferredScrollableViewportSize(new Dimension(500, 70));
+        table.setPreferredScrollableViewportSize(new Dimension(600, 170));
         table.setFillsViewportHeight(true);
         table.setAutoCreateRowSorter(true);
 
