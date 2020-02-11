@@ -9,6 +9,9 @@
 
 ## change history
 
+### 2020/2/12
+1. update changing computer issues
+
 ### 2020/2/11
 1. add JTable samples
 
