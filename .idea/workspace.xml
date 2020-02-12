@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="867e4a28-b043-4c0b-8c2f-540e4ca6810e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,33 +92,34 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix changing computer issues" />
     <MESSAGE value="fix changing computer issues, again" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix changing computer issues, again" />
+    <MESSAGE value="update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="26" key="CommitChangelistDialog2" timestamp="1581462174930">
+    <state x="446" y="26" key="CommitChangelistDialog2" timestamp="1581462222804">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="446" y="26" key="CommitChangelistDialog2/62.0.1474.864@62.0.1474.864" timestamp="1581462174930" />
-    <state width="1431" height="224" key="GridCell.Tab.0.bottom" timestamp="1581461981161">
+    <state x="446" y="26" key="CommitChangelistDialog2/62.0.1474.864@62.0.1474.864" timestamp="1581462222804" />
+    <state width="1431" height="224" key="GridCell.Tab.0.bottom" timestamp="1581462249323">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1581461981161" />
-    <state width="1431" height="224" key="GridCell.Tab.0.center" timestamp="1581461981161">
+    <state width="1431" height="224" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1581462249323" />
+    <state width="1431" height="224" key="GridCell.Tab.0.center" timestamp="1581462249323">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1581461981161" />
-    <state width="1431" height="224" key="GridCell.Tab.0.left" timestamp="1581461981161">
+    <state width="1431" height="224" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1581462249323" />
+    <state width="1431" height="224" key="GridCell.Tab.0.left" timestamp="1581462249323">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1581461981161" />
-    <state width="1431" height="224" key="GridCell.Tab.0.right" timestamp="1581461981161">
+    <state width="1431" height="224" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1581462249323" />
+    <state width="1431" height="224" key="GridCell.Tab.0.right" timestamp="1581462249323">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1581461981161" />
-    <state x="392" y="166" key="Vcs.Push.Dialog.v2" timestamp="1581462052610">
+    <state width="1431" height="224" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1581462249323" />
+    <state x="392" y="166" key="Vcs.Push.Dialog.v2" timestamp="1581462225228">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="392" y="166" key="Vcs.Push.Dialog.v2/62.0.1474.864@62.0.1474.864" timestamp="1581462052610" />
+    <state x="392" y="166" key="Vcs.Push.Dialog.v2/62.0.1474.864@62.0.1474.864" timestamp="1581462225228" />
     <state x="484" y="31" width="629" height="801" key="find.popup" timestamp="1581460991917">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
