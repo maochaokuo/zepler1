@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="867e4a28-b043-4c0b-8c2f-540e4ca6810e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/javas/TableSelectionDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -9,10 +10,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XgGFEfTm10JW3b9n0bZ8ZHbyRW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,16 +33,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Kotlin.zepler.com.misc.swing.testSpringLayout">
-    <configuration name="TableSorterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javas.TableSorterDemo" />
+  <component name="RunManager" selected="Application.TableListSelectionDemo">
+    <configuration name="ListSelectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="events.ListSelectionDemo" />
       <module name="zepler1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TableToolTipsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javas.TableToolTipsDemo" />
+    <configuration name="TableListSelectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="events.TableListSelectionDemo" />
+      <module name="zepler1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TableSelectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javas.TableSelectionDemo" />
       <module name="zepler1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -45,19 +63,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="swing.LayoutEx1Kt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="zepler.com.misc.sqlite.Connect" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="zepler1" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="zepler.com.misc.sqlite.Connect" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,11 +83,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TableListSelectionDemo" />
+        <item itemvalue="Application.ListSelectionDemo" />
+        <item itemvalue="Application.TableSelectionDemo" />
         <item itemvalue="Kotlin.zepler.com.misc.swing.testSpringLayout" />
         <item itemvalue="Kotlin.swing.LayoutEx1Kt" />
-        <item itemvalue="Kotlin.zepler.com.misc.sqlite.Connect" />
-        <item itemvalue="Application.TableToolTipsDemo" />
-        <item itemvalue="Application.TableSorterDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -101,29 +106,49 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="446" y="26" key="CommitChangelistDialog2/62.0.1474.864@62.0.1474.864" timestamp="1581471145345" />
-    <state width="1431" height="224" key="GridCell.Tab.0.bottom" timestamp="1581462249323">
+    <state width="1431" height="224" key="GridCell.Tab.0.bottom" timestamp="1581604049363">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1581462249323" />
-    <state width="1431" height="224" key="GridCell.Tab.0.center" timestamp="1581462249323">
+    <state width="1431" height="224" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1581604049363" />
+    <state width="1431" height="224" key="GridCell.Tab.0.center" timestamp="1581604049363">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1581462249323" />
-    <state width="1431" height="224" key="GridCell.Tab.0.left" timestamp="1581462249323">
+    <state width="1431" height="224" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1581604049363" />
+    <state width="1431" height="224" key="GridCell.Tab.0.left" timestamp="1581604049363">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1581462249323" />
-    <state width="1431" height="224" key="GridCell.Tab.0.right" timestamp="1581462249323">
+    <state width="1431" height="224" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1581604049363" />
+    <state width="1431" height="224" key="GridCell.Tab.0.right" timestamp="1581604049363">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1581462249323" />
+    <state width="1431" height="224" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1581604049363" />
     <state x="392" y="166" key="Vcs.Push.Dialog.v2" timestamp="1581471153527">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="392" y="166" key="Vcs.Push.Dialog.v2/62.0.1474.864@62.0.1474.864" timestamp="1581471153527" />
+    <state x="488" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1581601917425">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="488" y="257" key="com.intellij.ide.util.TipDialog/62.0.1474.864@62.0.1474.864" timestamp="1581601917425" />
     <state x="484" y="31" width="629" height="801" key="find.popup" timestamp="1581460991917">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="484" y="31" width="629" height="801" key="find.popup/62.0.1474.864@62.0.1474.864" timestamp="1581460991917" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javas/TableSelectionDemo.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javas/TableSelectionDemo.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
