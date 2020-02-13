@@ -12,6 +12,30 @@
 ### 2020/2/13
 1. add ListSelectionDemo.java
 2. add TableListSelectionDemo.java
+3. JTable selected content
+```dtd
+getValueAt(int row, int column)
+getSelectedRow()
+getSelectedColumn()
+-- or --
+int column = 0;
+int row = table.getSelectedRow();
+String value = table.getModel().getValueAt(row, column).toString();
+```
+4. JTable multiple selection
+```dtd
+you can allow multiple selection by jTable.setRowSelectionAllowed(true);
+jTable.setSelectionMode(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION);
+and you can get the values by
+
+if (jTable.getSelectedRows() > -1) {
+    int[] selectedrows = jTable.getSelectedRows();
+    for (int i = 0; i < selectedrows.length; i++)
+    {
+         System.out.println(jTable.getValueAt(selectedrows[i], 0).toString());
+    }
+}
+```
 
 ### 2020/2/12
 1. update changing computer issues
