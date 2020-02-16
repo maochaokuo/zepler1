@@ -29,7 +29,7 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */ 
 
-package events;
+package javas;
 
 /*
  * ListSelectionDemo.java requires no other files.
@@ -167,6 +167,16 @@ public class ListSelectionDemo extends JPanel {
                           + firstIndex + " - " + lastIndex
                           + "; isAdjusting is " + isAdjusting
                           + "; selected indexes:");
+//            output.append(table.getSelectedRows().length.toString());
+//            String line = "";
+//            if (table.getSelectedRows().length > 0) {
+//                int[] selectedrows = table.getSelectedRows();
+//                for (int i = 0; i < selectedrows.length; i++)
+//                {
+//                    line += (table.getValueAt(selectedrows[i], 0).toString());
+//                }
+//            }
+//            output.append(line);
 
             if (lsm.isSelectionEmpty()) {
                 output.append(" <none>");
