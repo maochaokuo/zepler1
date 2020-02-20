@@ -29,7 +29,7 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */ 
 
-package javas;
+package javas.event;
 
 /*
  * ListSelectionDemo.java requires no other files.
@@ -37,9 +37,7 @@ package javas;
 
 import javax.swing.*;
 import javax.swing.event.*;
-import javax.swing.table.*;
 
-import java.util.*;
 import java.awt.*;
 import java.awt.event.*;
 
