@@ -29,7 +29,7 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */ 
 
-package components;
+package javas.event;
 
 import javax.swing.JOptionPane;
 import javax.swing.JDialog;
@@ -44,7 +44,7 @@ class CustomDialog extends JDialog
                               PropertyChangeListener {
     private String typedText = null;
     private JTextField textField;
-    private components.DialogDemo dd;
+    private DialogDemo dd;
 
     private String magicWord;
     private JOptionPane optionPane;
@@ -61,7 +61,7 @@ class CustomDialog extends JDialog
     }
 
     /** Creates the reusable dialog. */
-    public CustomDialog(Frame aFrame, String aWord, components.DialogDemo parent) {
+    public CustomDialog(Frame aFrame, String aWord, DialogDemo parent) {
         super(aFrame, true);
         dd = parent;
 

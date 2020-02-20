@@ -5,12 +5,12 @@ import java.awt.FlowLayout
 import javax.swing.*
 
 class ZepdUimain {
-    val frm= JFrame("ZepdUI")
+    val frm = JFrame("ZepdUI")
 
     init {
-        frm.defaultCloseOperation=JFrame.EXIT_ON_CLOSE
+        frm.defaultCloseOperation = JFrame.EXIT_ON_CLOSE
         frm.setSize(450, 260)
-        frm.isVisible=true
+        frm.isVisible = true
         frm.jMenuBar = createMenuBar()
     }
     fun createMenuBar():JMenuBar {
@@ -21,8 +21,8 @@ class ZepdUimain {
 //        var rbMenuItem: JRadioButtonMenuItem
 //        var cbMenuItem: JCheckBoxMenuItem
 
-        menuBar= JMenuBar()
-        menu= JMenu("database")
+        menuBar = JMenuBar()
+        menu = JMenu("database")
         menu.accessibleContext.accessibleDescription="DB"
         menuBar.add(menu)
         menuItem = JMenuItem("Tables")

@@ -29,7 +29,7 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */ 
 
-package components;
+package javas.event;
 
 import javax.swing.JOptionPane;
 import javax.swing.JDialog;
@@ -101,7 +101,7 @@ public class DialogDemo extends JPanel {
     }
 
     /** Sets the text displayed at the bottom of the frame. */
-    void setLabel(String newText) {
+    public void setLabel(String newText) {
         label.setText(newText);
     }
 
