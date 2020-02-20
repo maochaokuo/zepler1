@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="867e4a28-b043-4c0b-8c2f-540e4ca6810e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/javas/event/BlankArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javas/event/MouseEventDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javas/event/MouseMotionEventDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javas/event/MouseWheelEventDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javas/ListSelectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javas/event/ListSelectionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javas/WindowEventDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javas/event/WindowEventDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +114,9 @@
     <MESSAGE value="add ContainerEventDemo" />
     <MESSAGE value="event listener examples" />
     <MESSAGE value="ListDataEventDemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="ListDataEventDemo" />
+    <MESSAGE value="mouse related event handlers" />
+    <MESSAGE value="tree event handlers" />
+    <option name="LAST_COMMIT_MESSAGE" value="tree event handlers" />
   </component>
   <component name="WindowStateProjectService">
     <state x="259" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582066025744">
@@ -130,10 +127,10 @@
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="534" y="171" key="#com.intellij.ide.util.TreeClassChooserDialog/62.0.1304.768@62.0.1304.768" timestamp="1582066021559" />
-    <state x="402" y="0" key="CommitChangelistDialog2" timestamp="1582211281717">
+    <state x="402" y="0" key="CommitChangelistDialog2" timestamp="1582211472202">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state x="402" y="0" key="CommitChangelistDialog2/62.0.1304.768@62.0.1304.768" timestamp="1582211281717" />
+    <state x="402" y="0" key="CommitChangelistDialog2/62.0.1304.768@62.0.1304.768" timestamp="1582211472202" />
     <state x="446" y="26" key="CommitChangelistDialog2/62.0.1474.864@62.0.1474.864" timestamp="1581847278417" />
     <state width="1261" height="192" key="GridCell.Tab.0.bottom" timestamp="1582211434714">
       <screen x="62" y="0" width="1304" height="768" />
