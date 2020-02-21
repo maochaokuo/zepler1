@@ -76,7 +76,7 @@ import javax.swing.*
     init {
         val gridbag = layout as GridBagLayout
         val c = GridBagConstraints()
-        var l: JLabel? = null
+        var l: JLabel? //= null
         c.fill = GridBagConstraints.BOTH
         c.gridwidth = GridBagConstraints.REMAINDER
         l = JLabel("What MultiListener hears:")

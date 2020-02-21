@@ -34,7 +34,7 @@ import java.awt.BorderLayout
 import java.awt.Dimension
 import java.awt.Frame
 import java.awt.event.*
-import java.lang.Boolean
+//import java.lang.Boolean
 import javax.swing.*
 
 /*
@@ -208,7 +208,7 @@ import javax.swing.*
             } catch (ex: ClassNotFoundException) {
                 ex.printStackTrace()
             }
-            /* Turn off metal's use of bold fonts */UIManager.put("swing.boldMetal", Boolean.FALSE)
+            /* Turn off metal's use of bold fonts */UIManager.put("swing.boldMetal", false)
             //Schedule a job for the event dispatch thread:
 //creating and showing this application's GUI.
             SwingUtilities.invokeLater { createAndShowGUI() }

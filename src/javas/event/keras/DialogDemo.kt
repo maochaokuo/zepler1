@@ -62,7 +62,7 @@ class DialogDemo(var frame: JFrame) : JPanel(BorderLayout()) {
         val numButtons = 4
         val radioButtons = arrayOfNulls<JRadioButton>(numButtons)
         val group = ButtonGroup()
-        var showItButton: JButton? = null
+        val showItButton: JButton? //= null
         val defaultMessageCommand = "default"
         val yesNoCommand = "yesno"
         val yeahNahCommand = "yeahnah"
@@ -222,7 +222,7 @@ class DialogDemo(var frame: JFrame) : JPanel(BorderLayout()) {
      * kind of dialog, as well.
      */
     private fun createIconDialogBox(): JPanel {
-        var showItButton: JButton? = null
+        val showItButton: JButton? //= null
         val numButtons = 6
         val radioButtons = arrayOfNulls<JRadioButton>(numButtons)
         val group = ButtonGroup()
@@ -319,7 +319,7 @@ class DialogDemo(var frame: JFrame) : JPanel(BorderLayout()) {
         val numButtons = 5
         val radioButtons = arrayOfNulls<JRadioButton>(numButtons)
         val group = ButtonGroup()
-        var showItButton: JButton? = null
+        val showItButton: JButton? //= null
         val pickOneCommand = "pickone"
         val textEnteredCommand = "textfield"
         val nonAutoCommand = "nonautooption"
@@ -358,7 +358,7 @@ class DialogDemo(var frame: JFrame) : JPanel(BorderLayout()) {
                     "ham"
                 ) as String
                 //If a string was returned, say so.
-                if (s != null && s.length > 0) {
+                if ( s.length > 0) {
                     setLabel("Green eggs and... $s!")
                     return@ActionListener
                 }
@@ -376,7 +376,7 @@ class DialogDemo(var frame: JFrame) : JPanel(BorderLayout()) {
                     "ham"
                 ) as String
                 //If a string was returned, say so.
-                if (s != null && s.length > 0) {
+                if ( s.length > 0) {
                     setLabel("Green eggs and... $s!")
                     return@ActionListener
                 }
@@ -464,7 +464,7 @@ class DialogDemo(var frame: JFrame) : JPanel(BorderLayout()) {
                             + "and still use the main window."
                 )
                 label.horizontalAlignment = JLabel.CENTER
-                val font = label.font
+                //val font = label.font
                 label.font = label.font.deriveFont(
                     Font.PLAIN,
                     14.0f

@@ -114,7 +114,7 @@ import javax.swing.event.ListSelectionListener
             "one", "two", "three", "four",
             "five", "six", "seven"
         )
-        val columnNames = arrayOf("French", "Spanish", "Italian")
+        //val columnNames = arrayOf("French", "Spanish", "Italian")
         list = JList<Any?>(listData)
         listSelectionModel = list.selectionModel
         listSelectionModel.addListSelectionListener(
