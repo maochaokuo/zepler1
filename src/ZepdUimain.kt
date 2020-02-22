@@ -3,6 +3,8 @@ package zepler.com
 import java.awt.BorderLayout
 import java.awt.FlowLayout
 import javax.swing.*
+import javax.swing.BoxLayout
+
 
 class ZepdUimain {
     val frm = JFrame("ZepdUI")
@@ -32,6 +34,7 @@ class ZepdUimain {
 //            val f = JFrame()
 //            f.setSize(300, 200)
 //            f.isVisible = true
+            //val master=JScrollPanel(FlowLayout(FlowLayout.LEFT))
             val master=JPanel(FlowLayout(FlowLayout.LEFT))
             val set1=JPanel()
             set1.add(JLabel("label1"))
@@ -45,11 +48,45 @@ class ZepdUimain {
             set3.add(JLabel("label3"))
             set3.add(JTextField("text3"))
             set3.add(JLabel("msg3"))
+            val set4=JPanel()
+            set4.add(JLabel("label4"))
+            set4.add(JTextField("text4"))
+            set4.add(JLabel("msg4"))
+            val set5=JPanel()
+            set5.add(JLabel("label5"))
+            set5.add(JTextField("text5"))
+            set5.add(JLabel("msg5"))
             master.add(set1)
             master.add(set2)
             master.add(set3)
+            master.add(set4)
+            master.add(set5)
+
+            val master2=JPanel(FlowLayout(FlowLayout.LEFT))
+            for (i in 0..5) {
+                master2.add(JButton("JButton"))
+            }
+
+//            val js = JScrollPane(
+//                master,
+//                JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,
+//                JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS
+//            )
+//            js.preferredSize = Dimension(400, 300)
+            val container = JPanel()
+            container.layout = BoxLayout(container, BoxLayout.Y_AXIS)
+
+//            val panel1 = JPanel()
+//            val panel2 = JPanel()
+
+            container.add(master)
+            container.add(master2)
+
             frm.layout= BorderLayout()
-            frm.add(master)
+            frm.add(container)
+//            frm.add(master)
+//            frm.add(master2)
+            //frm.add(js)
             frm.pack()
         }
         menu.add(menuItem)
@@ -61,4 +98,16 @@ class ZepdUimain {
         menuBar.add(menu)
         return menuBar
     }
+}
+
+//class zepler {
+fun main(args: Array<String>) {
+    println("Hello World!")
+    val i=33/2
+    println(i)
+    println("hello $i")
+    //main2()
+    //connect()
+    SwingUtilities.invokeLater{
+        ZepdUimain()}
 }
