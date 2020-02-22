@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="867e4a28-b043-4c0b-8c2f-540e4ca6810e" name="Default Changelist" comment="ScrollableJTableEx">
-      <change afterPath="$PROJECT_DIR$/src/javas/ScrollPanelEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javas/ScrollableJTableEx.java" afterDir="false" />
+    <list default="true" id="867e4a28-b043-4c0b-8c2f-540e4ca6810e" name="Default Changelist" comment="ComboBoxDemo">
+      <change afterPath="$PROJECT_DIR$/src/javas/ComboBoxDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ZepdUimain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZepdUimain.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javas/ScrollableJTableEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javas/ScrollableJTableEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,14 @@
     <property name="deletionFromPopupRequiresConfirmation" value="false" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Application.ScrollableJTableEx">
+  <component name="RunManager" selected="Application.ComboBoxDemo">
+    <configuration name="ComboBoxDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="components.ComboBoxDemo" />
+      <module name="zepler1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ScrollPanelEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javas.ScrollPanelEx" />
       <module name="zepler1" />
@@ -62,19 +68,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="zepler.com.ZeplerKt" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="swing.TestFlowLayout" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="zepler1" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="swing.TestFlowLayout" />
       <option name="WORKING_DIRECTORY" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComboBoxDemo" />
         <item itemvalue="Application.ScrollableJTableEx" />
         <item itemvalue="Kotlin.zepler.com.ZepdUimainKt" />
         <item itemvalue="Kotlin.zepler.com.ZeplerKt" />
         <item itemvalue="Application.ScrollPanelEx" />
-        <item itemvalue="Kotlin.swing.TestFlowLayout" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +134,8 @@
     <MESSAGE value="event sample to kotlin (not all compiled yet)" />
     <MESSAGE value="update all event listener sample in kotlin" />
     <MESSAGE value="ScrollableJTableEx" />
-    <option name="LAST_COMMIT_MESSAGE" value="ScrollableJTableEx" />
+    <MESSAGE value="ComboBoxDemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="ComboBoxDemo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="259" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582066025744">
@@ -156,30 +150,30 @@
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="444" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1304.768@62.0.1304.768" timestamp="1582296993805" />
-    <state x="402" y="0" key="CommitChangelistDialog2" timestamp="1582365743854">
+    <state x="402" y="0" key="CommitChangelistDialog2" timestamp="1582381338801">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state x="402" y="0" key="CommitChangelistDialog2/62.0.1304.768@62.0.1304.768" timestamp="1582365743854" />
+    <state x="402" y="0" key="CommitChangelistDialog2/62.0.1304.768@62.0.1304.768" timestamp="1582381338801" />
     <state x="446" y="26" key="CommitChangelistDialog2/62.0.1474.864@62.0.1474.864" timestamp="1581847278417" />
-    <state width="1261" height="192" key="GridCell.Tab.0.bottom" timestamp="1582365647007">
+    <state width="1261" height="192" key="GridCell.Tab.0.bottom" timestamp="1582381169337">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="192" key="GridCell.Tab.0.bottom/62.0.1304.768@62.0.1304.768" timestamp="1582365647007" />
+    <state width="1261" height="192" key="GridCell.Tab.0.bottom/62.0.1304.768@62.0.1304.768" timestamp="1582381169337" />
     <state width="1431" height="224" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1581847297215" />
-    <state width="1261" height="192" key="GridCell.Tab.0.center" timestamp="1582365647006">
+    <state width="1261" height="192" key="GridCell.Tab.0.center" timestamp="1582381169336">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="192" key="GridCell.Tab.0.center/62.0.1304.768@62.0.1304.768" timestamp="1582365647006" />
+    <state width="1261" height="192" key="GridCell.Tab.0.center/62.0.1304.768@62.0.1304.768" timestamp="1582381169336" />
     <state width="1431" height="224" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1581847297215" />
-    <state width="1261" height="192" key="GridCell.Tab.0.left" timestamp="1582365647005">
+    <state width="1261" height="192" key="GridCell.Tab.0.left" timestamp="1582381169336">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="192" key="GridCell.Tab.0.left/62.0.1304.768@62.0.1304.768" timestamp="1582365647005" />
+    <state width="1261" height="192" key="GridCell.Tab.0.left/62.0.1304.768@62.0.1304.768" timestamp="1582381169336" />
     <state width="1431" height="224" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1581847297215" />
-    <state width="1261" height="192" key="GridCell.Tab.0.right" timestamp="1582365647006">
+    <state width="1261" height="192" key="GridCell.Tab.0.right" timestamp="1582381169337">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="192" key="GridCell.Tab.0.right/62.0.1304.768@62.0.1304.768" timestamp="1582365647006" />
+    <state width="1261" height="192" key="GridCell.Tab.0.right/62.0.1304.768@62.0.1304.768" timestamp="1582381169337" />
     <state width="1431" height="224" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1581847297215" />
     <state width="1431" height="277" key="GridCell.Tab.1.bottom" timestamp="1581847294943">
       <screen x="62" y="0" width="1474" height="864" />
