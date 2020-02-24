@@ -67,6 +67,15 @@ class ZepdUimain {
                 master2.add(JButton("JButton"))
             }
 
+            val master3=JPanel(FlowLayout(FlowLayout.LEFT))//BorderLayout())
+
+            val table = JTable(20, 20)
+            table.autoResizeMode=JTable.AUTO_RESIZE_OFF
+
+            val pane = JScrollPane(table)
+            master3.add(pane)//, BorderLayout.CENTER)
+            //master3.add(table)
+
 //            val js = JScrollPane(
 //                master,
 //                JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,
@@ -81,6 +90,7 @@ class ZepdUimain {
 
             container.add(master)
             container.add(master2)
+            container.add(master3)
 
             frm.layout= BorderLayout()
             frm.add(container)
