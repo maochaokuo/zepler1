@@ -7,6 +7,16 @@
    or JDK 1.8. If it shows no JDK but actually installed, press
    add button and look for JDK in your installed directory
 
+## to do
+
+### 2020/2/26
+1. it looks flowlayout cannot coexist with scrollpanel, so
+    1. single table add/update use flowlayout
+    2. query conditions, buttons, table result, use all 
+    scrollpanels
+2. study combobox, with options from external source
+    (like database)    
+
 ## change history
 
 ### 2020/2/13
