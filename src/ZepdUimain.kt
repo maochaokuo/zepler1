@@ -4,13 +4,17 @@ import javas.kotlin.WrapLayout
 import java.awt.BorderLayout
 import java.awt.Dimension
 import java.awt.FlowLayout
+import java.awt.event.ActionEvent
+import java.awt.event.ActionListener
 import javax.swing.*
 import javax.swing.BoxLayout
+import javax.swing.JOptionPane.showMessageDialog
 import javax.swing.Spring.height
 import javax.swing.Spring.width
 
 
-class ZepdUimain {
+class ZepdUimain: ActionListener
+{
     val frm = JFrame("ZepdUI")
 
     init {
@@ -19,6 +23,11 @@ class ZepdUimain {
         frm.preferredSize = Dimension(450, 260)
         frm.isVisible = true
         frm.jMenuBar = createMenuBar()
+    }
+    override fun actionPerformed(e: ActionEvent) {
+//        if(e.getSource() == button1)
+//            println("e.getSource().toString()");
+        showMessageDialog(null, e.source);
     }
     fun createMenuBar():JMenuBar {
         val menuBar: JMenuBar
@@ -72,7 +81,9 @@ class ZepdUimain {
 
             val master2pre = JPanel( WrapLayout())// FlowLayout(FlowLayout.LEFT))
             for (i in 0..15) {
-                master2pre.add(JButton("JButton"))
+                val btn:JButton=JButton("JButton"+i.toString())
+                btn.addActionListener(this)
+                master2pre.add(btn)
             }
             val master2 = JScrollPane(master2pre)
 //            val master2 = JPanel()//scrollPane2)
