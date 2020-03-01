@@ -3,17 +3,16 @@ package zepler.com
 import javas.kotlin.WrapLayout
 import java.awt.BorderLayout
 import java.awt.Dimension
-import java.awt.FlowLayout
 import java.awt.event.ActionEvent
 import java.awt.event.ActionListener
+import java.awt.event.FocusEvent
+import java.awt.event.FocusListener
 import javax.swing.*
 import javax.swing.BoxLayout
 import javax.swing.JOptionPane.showMessageDialog
-import javax.swing.Spring.height
-import javax.swing.Spring.width
 
 
-class ZepdUimain: ActionListener
+class ZepdUimain: ActionListener, FocusListener
 {
     val frm = JFrame("ZepdUI")
 
@@ -23,11 +22,6 @@ class ZepdUimain: ActionListener
         frm.preferredSize = Dimension(450, 260)
         frm.isVisible = true
         frm.jMenuBar = createMenuBar()
-    }
-    override fun actionPerformed(e: ActionEvent) {
-//        if(e.getSource() == button1)
-//            println("e.getSource().toString()");
-        showMessageDialog(null, e.source);
     }
     fun createMenuBar():JMenuBar {
         val menuBar: JMenuBar
@@ -53,23 +47,33 @@ class ZepdUimain: ActionListener
 
             val set1=JPanel()
             set1.add(JLabel("label1"))
-            set1.add(JTextField("text1"))
+            val txt1:JTextField=JTextField("text1")
+            txt1.addFocusListener(this)
+            set1.add(txt1)// JTextField("text1"))
             set1.add(JLabel("msg1"))
             val set2=JPanel()
             set2.add(JLabel("label2"))
-            set2.add(JTextField("text2"))
+            val txt2:JTextField=JTextField("text2")
+            txt2.addFocusListener(this)
+            set2.add(txt2)//JTextField("text2"))
             set2.add(JLabel("msg2"))
             val set3=JPanel()
             set3.add(JLabel("label3"))
-            set3.add(JTextField("text3"))
+            val txt3:JTextField=JTextField("text3")
+            txt3.addFocusListener(this)
+            set3.add(txt3)//JTextField("text3"))
             set3.add(JLabel("msg3"))
             val set4=JPanel()
             set4.add(JLabel("label4"))
-            set4.add(JTextField("text4"))
+            val txt4:JTextField=JTextField("text4")
+            txt4.addFocusListener(this)
+            set4.add(txt4)//JTextField("text4"))
             set4.add(JLabel("msg4"))
             val set5=JPanel()
             set5.add(JLabel("label5"))
-            set5.add(JTextField("text5"))
+            val txt5:JTextField=JTextField("text5")
+            txt5.addFocusListener(this)
+            set5.add(txt5)//JTextField("text5"))
             set5.add(JLabel("msg5"))
             val master0=JPanel(WrapLayout())
             master0.add(set1)
@@ -133,6 +137,22 @@ class ZepdUimain: ActionListener
         menu=JMenu("EPD")
         menuBar.add(menu)
         return menuBar
+    }
+
+    override fun actionPerformed(e: ActionEvent) {
+//        if(e.getSource() == button1)
+//            println("e.getSource().toString()");
+        showMessageDialog(null,"actionPerformed: "+ e.source);
+    }
+    override fun focusGained(e: FocusEvent?) {
+        //showMessageDialog(null,"focusGained: "+ e!!.source.);
+    }
+    override fun focusLost(e: FocusEvent?) {
+        if (e?.component is JTextField && e.oppositeComponent is JTextField) {
+            val c: JTextField = e?.component as JTextField
+            val co: JTextField = e.oppositeComponent as JTextField
+            showMessageDialog(null, "focusLost: " + c.getText() + " " + co.getText());
+        }
     }
 }
 
