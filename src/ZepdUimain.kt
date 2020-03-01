@@ -78,6 +78,11 @@ class ZepdUimain: ActionListener, FocusListener
             txt5.addFocusListener(this)
             set5.add(txt5)//JTextField("text5"))
             set5.add(JLabel("msg5"))
+//            val cmb1
+//            val txt1:JTextField=JTextField("text1")
+//            txt1.addFocusListener(this)
+//            set1.add(txt1)// JTextField("text1"))
+//            set1.add(JLabel("msg1"))
 
             //Map<String, JTextField> fields
             //todo JTextField does not have id or name
