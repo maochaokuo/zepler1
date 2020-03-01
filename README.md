@@ -19,6 +19,14 @@
 
 ## change history
 
+### 2020/3/1
+1. finally we got layout solution
+    1. use wraplayout for multiple controlls, including
+        input controlls and buttons
+    2. then put wraplayout into scrollpane
+    3. for JTable, put directly into scrollpane
+    4. then add all scrollpane in JFrame content pane
+
 ### 2020/2/13
 1. add ListSelectionDemo.java
 2. add TableListSelectionDemo.java

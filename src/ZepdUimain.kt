@@ -1,9 +1,13 @@
 package zepler.com
 
+import javas.kotlin.WrapLayout
 import java.awt.BorderLayout
+import java.awt.Dimension
 import java.awt.FlowLayout
 import javax.swing.*
 import javax.swing.BoxLayout
+import javax.swing.Spring.height
+import javax.swing.Spring.width
 
 
 class ZepdUimain {
@@ -12,6 +16,7 @@ class ZepdUimain {
     init {
         frm.defaultCloseOperation = JFrame.EXIT_ON_CLOSE
         frm.setSize(450, 260)
+        frm.preferredSize = Dimension(450, 260)
         frm.isVisible = true
         frm.jMenuBar = createMenuBar()
     }
@@ -35,7 +40,8 @@ class ZepdUimain {
 //            f.setSize(300, 200)
 //            f.isVisible = true
             //val master=JScrollPanel(FlowLayout(FlowLayout.LEFT))
-            val master=JPanel(FlowLayout(FlowLayout.LEFT))
+            //val master = JPanel(WrapLayout())//FlowLayout(FlowLayout.LEFT))
+
             val set1=JPanel()
             set1.add(JLabel("label1"))
             set1.add(JTextField("text1"))
@@ -56,24 +62,33 @@ class ZepdUimain {
             set5.add(JLabel("label5"))
             set5.add(JTextField("text5"))
             set5.add(JLabel("msg5"))
-            master.add(set1)
-            master.add(set2)
-            master.add(set3)
-            master.add(set4)
-            master.add(set5)
+            val master0=JPanel(WrapLayout())
+            master0.add(set1)
+            master0.add(set2)
+            master0.add(set3)
+            master0.add(set4)
+            master0.add(set5)
+            val master = JScrollPane(master0)
 
-            val master2=JPanel(FlowLayout(FlowLayout.LEFT))
-            for (i in 0..5) {
-                master2.add(JButton("JButton"))
+            val master2pre = JPanel( WrapLayout())// FlowLayout(FlowLayout.LEFT))
+            for (i in 0..15) {
+                master2pre.add(JButton("JButton"))
             }
+            val master2 = JScrollPane(master2pre)
+//            val master2 = JPanel()//scrollPane2)
+//            master2.add(scrollPane2)
+//            master2.verticalScrollBarPolicy = JScrollPane.VERTICAL_SCROLLBAR_ALWAYS
+//            master2.horizontalScrollBarPolicy = JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS
+//            master2.preferredSize = Dimension(400, 300)
 
-            val master3=JPanel(FlowLayout(FlowLayout.LEFT))//BorderLayout())
+            //val master3 = JPanel(WrapLayout())//FlowLayout(FlowLayout.LEFT))//BorderLayout())
 
-            val table = JTable(20, 20)
-            table.autoResizeMode=JTable.AUTO_RESIZE_OFF
+            val table = JTable(30, 30)
+            table.autoResizeMode = JTable.AUTO_RESIZE_OFF
 
-            val pane = JScrollPane(table)
-            master3.add(pane)//, BorderLayout.CENTER)
+            //val scrollPane3 = JScrollPane(table)
+            val master3 = JScrollPane(table)
+            //master3.add(scrollPane3)//, BorderLayout.CENTER)
             //master3.add(table)
 
 //            val js = JScrollPane(
