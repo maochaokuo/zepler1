@@ -9,6 +9,15 @@
 
 ## to do
 
+### 2020/3/1
+1. JTextField does not have id or name. If we need to 
+    use its collection, need to use Map
+```dtd
+var fields: MutableMap<String?, JTextField?>
+val field = JTextField(15)
+fields[fieldName] = field
+```
+
 ### 2020/2/26
 1. it looks flowlayout cannot coexist with scrollpanel, so
     1. single table add/update use flowlayout

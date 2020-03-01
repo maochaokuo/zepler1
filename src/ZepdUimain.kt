@@ -75,6 +75,15 @@ class ZepdUimain: ActionListener, FocusListener
             txt5.addFocusListener(this)
             set5.add(txt5)//JTextField("text5"))
             set5.add(JLabel("msg5"))
+
+            //Map<String, JTextField> fields
+            //todo JTextField does not have id or name
+            // if we need to use its collection, need to
+            // use Map
+//            var fields: MutableMap<String?, JTextField?>
+//            val field = JTextField(15)
+//            fields[fieldName] = field
+
             val master0=JPanel(WrapLayout())
             master0.add(set1)
             master0.add(set2)
