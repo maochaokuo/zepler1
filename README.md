@@ -35,6 +35,8 @@ fields[fieldName] = field
     2. then put wraplayout into scrollpane
     3. for JTable, put directly into scrollpane
     4. then add all scrollpane in JFrame content pane
+2. JTable multiple continuous row selection in 
+    JTableSelectDemo.java    
 
 ### 2020/2/13
 1. add ListSelectionDemo.java

@@ -7,6 +7,9 @@ import java.awt.event.ActionEvent
 import java.awt.event.ActionListener
 import java.awt.event.FocusEvent
 import java.awt.event.FocusListener
+import java.text.DateFormat
+import java.text.SimpleDateFormat
+import java.util.*
 import javax.swing.*
 import javax.swing.BoxLayout
 import javax.swing.JOptionPane.showMessageDialog
@@ -109,7 +112,24 @@ class ZepdUimain: ActionListener, FocusListener
 
             val table = JTable(30, 30)
             table.autoResizeMode = JTable.AUTO_RESIZE_OFF
-
+            table.rowSelectionAllowed = true
+            val cellSelectionModel = table.selectionModel
+            cellSelectionModel.selectionMode = ListSelectionModel.SINGLE_INTERVAL_SELECTION
+            cellSelectionModel.addListSelectionListener {
+                var selectedData: String? = null
+                val selectedRow = table.selectedRows
+                val selectedColumns = table.selectedColumns
+                for (i in selectedRow.indices) {
+                    for (j in selectedColumns.indices) {
+                        println("selectedRow[i]="+selectedRow[i].toString())
+                        selectedData = table.getValueAt(selectedRow[i], selectedColumns[j]) as String?
+                    }
+                }
+                val date = Calendar.getInstance().time
+                val dateFormat: DateFormat = SimpleDateFormat("yyyy-mm-dd hh:mm:ss")
+                val strDate = dateFormat.format(date)
+                println("$strDate Selected: $selectedData")
+            }
             //val scrollPane3 = JScrollPane(table)
             val master3 = JScrollPane(table)
             //master3.add(scrollPane3)//, BorderLayout.CENTER)
