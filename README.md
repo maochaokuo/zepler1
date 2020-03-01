@@ -17,6 +17,9 @@ var fields: MutableMap<String?, JTextField?>
 val field = JTextField(15)
 fields[fieldName] = field
 ```
+2. Prepare for JComboBox key value example
+3. JComboBox selection change event example
+4. actionPerformed print too much text
 
 ### 2020/2/26
 1. it looks flowlayout cannot coexist with scrollpanel, so

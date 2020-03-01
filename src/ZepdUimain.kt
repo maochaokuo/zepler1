@@ -1,5 +1,6 @@
 package zepler.com
 
+import javas.kotlin.Item
 import javas.kotlin.WrapLayout
 import java.awt.BorderLayout
 import java.awt.Dimension
@@ -78,11 +79,45 @@ class ZepdUimain: ActionListener, FocusListener
             txt5.addFocusListener(this)
             set5.add(txt5)//JTextField("text5"))
             set5.add(JLabel("msg5"))
-//            val cmb1
-//            val txt1:JTextField=JTextField("text1")
-//            txt1.addFocusListener(this)
-//            set1.add(txt1)// JTextField("text1"))
-//            set1.add(JLabel("msg1"))
+            val set6=JPanel()
+            set6.add(JLabel("label6"))
+            val cmb1=JComboBox<Any?>()
+            cmb1.addItem(Item(11, "item1a"))
+            cmb1.addItem(Item(12, "item2a"))
+            cmb1.addItem(Item(13, "item3a"))
+            cmb1.addItem(Item(14, "item4a"))
+            cmb1.addItem(Item(15, "item5a"))
+            cmb1.maximumRowCount = 3
+            cmb1.setPrototypeDisplayValue("None of the above")
+            cmb1.addActionListener(this)
+            set6.add(cmb1)
+            set6.add(JLabel("msg6"))
+            val set7=JPanel()
+            set7.add(JLabel("label7"))
+            val cmb2=JComboBox<Any?>()
+            cmb2.addItem(Item(21, "item1b"))
+            cmb2.addItem(Item(22, "item2b"))
+            cmb2.addItem(Item(23, "item3b"))
+            cmb2.addItem(Item(24, "item4b"))
+            cmb2.addItem(Item(25, "item5b"))
+            cmb2.maximumRowCount = 3
+            cmb2.setPrototypeDisplayValue("None of the above")
+            cmb2.addActionListener(this)
+            set7.add(cmb2)
+            set7.add(JLabel("msg7"))
+            val set8=JPanel()
+            set8.add(JLabel("label8"))
+            val cmb3=JComboBox<Any?>()
+            cmb3.addItem(Item(31, "item1c"))
+            cmb3.addItem(Item(32, "item2c"))
+            cmb3.addItem(Item(33, "item3c"))
+            cmb3.addItem(Item(34, "item4c"))
+            cmb3.addItem(Item(35, "item5c"))
+            cmb3.maximumRowCount = 3
+            cmb3.setPrototypeDisplayValue("None of the above")
+            cmb3.addActionListener(this)
+            set8.add(cmb3)
+            set8.add(JLabel("msg8"))
 
             //Map<String, JTextField> fields
             //todo JTextField does not have id or name
@@ -98,6 +133,9 @@ class ZepdUimain: ActionListener, FocusListener
             master0.add(set3)
             master0.add(set4)
             master0.add(set5)
+            master0.add(set6)
+            master0.add(set7)
+            master0.add(set8)
             val master = JScrollPane(master0)
 
             val master2pre = JPanel( WrapLayout())// FlowLayout(FlowLayout.LEFT))
