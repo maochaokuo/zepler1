@@ -31,6 +31,9 @@ fields[fieldName] = field
 
 ## change history
 
+### 2020/3/2
+1. probably ok to proceed real development
+
 ### 2020/3/1
 1. finally we got layout solution
     1. use wraplayout for multiple controlls, including
