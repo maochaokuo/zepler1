@@ -9,6 +9,15 @@
 
 ## to do
 
+### 2020/3/3
+1. each menu item clicked, will replace content pane
+    with new form
+    1. define a base class
+    2. get JFrame
+    3. clear content pane
+    4. load data for the current form
+    5. render UIs and prepare callbacks
+
 ### 2020/3/1
 1. JTextField does not have id or name. If we need to 
     use its collection, need to use Map
