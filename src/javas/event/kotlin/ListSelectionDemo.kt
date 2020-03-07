@@ -28,7 +28,7 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package javas.event.keras
+package javas.event.kotlin
 
 import java.awt.BorderLayout
 import java.awt.Dimension
@@ -70,7 +70,8 @@ import javax.swing.event.ListSelectionListener
 //            output.append(line);
             if (lsm.isSelectionEmpty) {
                 output.append(" <none>")
-            } else { // Find out which indexes are selected.
+            } else {
+                // Find out which indexes are selected.
                 val minIndex = lsm.minSelectionIndex
                 val maxIndex = lsm.maxSelectionIndex
                 for (i in minIndex..maxIndex) {
@@ -90,21 +91,25 @@ import javax.swing.event.ListSelectionListener
          * this method should be invoked from the
          * event-dispatching thread.
          */
-        private fun createAndShowGUI() { //Create and set up the window.
+        private fun createAndShowGUI() {
+            //Create and set up the window.
             val frame = JFrame("ListSelectionDemo")
             frame.defaultCloseOperation = JFrame.EXIT_ON_CLOSE
+
             //Create and set up the content pane.
             val demo = ListSelectionDemo()
             demo.isOpaque = true
             frame.contentPane = demo
+
             //Display the window.
             frame.pack()
             frame.isVisible = true
         }
 
         @JvmStatic
-        fun main(args: Array<String>) { //Schedule a job for the event-dispatching thread:
-//creating and showing this application's GUI.
+        fun main(args: Array<String>) {
+            //Schedule a job for the event-dispatching thread:
+            //creating and showing this application's GUI.
             SwingUtilities.invokeLater { createAndShowGUI() }
         }
     }
@@ -114,7 +119,7 @@ import javax.swing.event.ListSelectionListener
             "one", "two", "three", "four",
             "five", "six", "seven"
         )
-        //val columnNames = arrayOf("French", "Spanish", "Italian")
+        val columnNames = arrayOf("French", "Spanish", "Italian")
         list = JList<Any?>(listData)
         listSelectionModel = list.selectionModel
         listSelectionModel.addListSelectionListener(
@@ -127,6 +132,7 @@ import javax.swing.event.ListSelectionListener
             "SINGLE_INTERVAL_SELECTION",
             "MULTIPLE_INTERVAL_SELECTION"
         )
+
         //Build output area.
         output = JTextArea(1, 10)
         output.isEditable = false
@@ -135,9 +141,12 @@ import javax.swing.event.ListSelectionListener
             ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS,
             ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED
         )
+
         val comboBox: JComboBox<*> = JComboBox<Any?>(modes)
         comboBox.selectedIndex = 2
-        comboBox.addActionListener {
+        comboBox.addActionListener { e ->
+            val obj = e.source
+            println(obj.toString())
             val newMode = comboBox.selectedItem as String
             if (newMode == "SINGLE_SELECTION") {
                 listSelectionModel.selectionMode = ListSelectionModel.SINGLE_SELECTION
@@ -154,6 +163,7 @@ import javax.swing.event.ListSelectionListener
         }
         controlPane.add(JLabel("Selection mode:"))
         controlPane.add(comboBox)
+
         //Do the layout.
         val splitPane = JSplitPane(JSplitPane.VERTICAL_SPLIT)
         add(splitPane, BorderLayout.CENTER)
@@ -174,7 +184,7 @@ import javax.swing.event.ListSelectionListener
         bottomHalf.add(controlPane, BorderLayout.PAGE_START)
         bottomHalf.add(outputPane, BorderLayout.CENTER)
         //XXX: next line needed if bottomHalf is a scroll pane:
-//bottomHalf.setMinimumSize(new Dimension(400, 50));
+        //bottomHalf.setMinimumSize(new Dimension(400, 50));
         bottomHalf.preferredSize = Dimension(450, 135)
         splitPane.add(bottomHalf)
     }

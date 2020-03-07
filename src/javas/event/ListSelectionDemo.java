@@ -70,6 +70,8 @@ public class ListSelectionDemo extends JPanel {
         comboBox.setSelectedIndex(2);
         comboBox.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+                Object obj = e.getSource();
+                System.out.println(obj.toString());
                 String newMode = (String)comboBox.getSelectedItem();
                 if (newMode.equals("SINGLE_SELECTION")) {
                     listSelectionModel.setSelectionMode(

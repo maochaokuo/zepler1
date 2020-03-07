@@ -5,8 +5,9 @@ import java.awt.event.ActionListener
 import javax.swing.JButton
 import javax.swing.JFrame
 
-class buttonAction : JFrame(), ActionListener {
+open class buttonAction : JFrame(), ActionListener {
     private val button1: JButton
+//    private val button2: JButton
     override fun actionPerformed(e: ActionEvent) { //        if(e.getSource() == button1)
 //            println("e.getSource().toString()");
     }
@@ -24,6 +25,20 @@ class buttonAction : JFrame(), ActionListener {
         this.isVisible = true
         button1 = JButton("1")
         button1.addActionListener(this)
-        this.add(button1)
+//        this.add(button1)
+//        button2 = JButton("2")
+//        button2.addActionListener(new )
     }
+}
+class test : buttonAction() {
+    override fun actionPerformed(e: ActionEvent) {
+        super.actionPerformed(e)
+    }
+}
+class test2 : ActionListener {
+    override fun actionPerformed(e: ActionEvent?) {
+
+        TODO("Not yet implemented")
+    }
+
 }
