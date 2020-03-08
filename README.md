@@ -10,6 +10,14 @@
 
 ## to do
 
+### 2020/3/8
+1. force event callback to be inherited
+    1. use abstract 
+    2. use interface, and throw exception
+```dtd
+throw NotImplementedError("not implemented yet!")
+```    
+
 ### 2020/3/3
 1. each menu item clicked, will replace content pane
     with new form

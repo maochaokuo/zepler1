@@ -31,5 +31,6 @@ internal class Button {
         for (l in ls) {
             l.clicked(e)
         }
+        throw NotImplementedError("not implemented yet!") // just an example
     }
 }
