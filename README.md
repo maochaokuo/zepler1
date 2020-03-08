@@ -41,6 +41,10 @@ fields[fieldName] = field
 
 ## change history
 
+### 2020/3/8
+1. add more event, custom event, raise event sample
+    code
+
 ### 2020/3/2
 1. probably ok to proceed real development
 
