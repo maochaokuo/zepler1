@@ -6,6 +6,7 @@
 3. Ctrl-Shift-Alt-S, may specify JDK version. Must use JDK 8,
    or JDK 1.8. If it shows no JDK but actually installed, press
    add button and look for JDK in your installed directory
+4. Ctrl-Shift-I see quick definition   
 
 ## to do
 

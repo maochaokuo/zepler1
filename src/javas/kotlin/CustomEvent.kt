@@ -3,6 +3,13 @@ package javas.kotlin
 import java.util.*
 import javax.swing.event.EventListenerList
 
+/*
+Swing primitively defined:
+1. EventObject(source Any?) (class)
+2. EventListener (interface)
+3. EventListenerList() (function)
+ */
+
 internal class MyEvent(source: Any?) : EventObject(source)
 internal interface MyEventListener : EventListener {
     fun myEventOccurred(evt: MyEvent?)
