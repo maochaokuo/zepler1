@@ -24,15 +24,9 @@ interface ITableSelectionChanged {
 
 }
 public class menuSwingBase: ActionListener
-    , FocusListener, ListSelectionListener
+    , ListSelectionListener
 {
     override fun actionPerformed(e: ActionEvent?) {
-        TODO("Not yet implemented")
-    }
-    override fun focusLost(e: FocusEvent?) {
-        TODO("Not yet implemented")
-    }
-    override fun focusGained(e: FocusEvent?) {
         TODO("Not yet implemented")
     }
     override fun valueChanged(e: ListSelectionEvent?) {

@@ -7,6 +7,8 @@
    or JDK 1.8. If it shows no JDK but actually installed, press
    add button and look for JDK in your installed directory
 4. Ctrl-Shift-I see quick definition   
+5. sync current file with project window, by pressing
+    Alt-F1 then choose project view/project
 
 ## to do
 
@@ -48,6 +50,10 @@ fields[fieldName] = field
     (like database)    
 
 ## change history
+
+### 2020/3/10
+1. add menuSwingBase.kt
+2. add inputFieldBase.kt
 
 ### 2020/3/8
 1. add more event, custom event, raise event sample

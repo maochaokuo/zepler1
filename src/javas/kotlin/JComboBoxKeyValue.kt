@@ -56,7 +56,7 @@ internal class ItemRenderer : BasicComboBoxRenderer() {
     }
 }
 
-internal class Item(val id: Int, val description: String) {
+class Item(val id: Int, val description: String) {
 
     override fun toString(): String {
         return description
